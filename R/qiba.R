@@ -40,7 +40,7 @@
 #' @title Calculating SUVs for PET Using QIBA Pseudocode
 #' 
 #' @description The standard uptake value (SUV) is calculated based on an 18F-FDG-PET
-#' acquistion using ancillary information contained in the DICOM data.
+#' acquisition using ancillary information contained in the DICOM data.
 #' 
 #' 
 #' @aliases activityConcentration 

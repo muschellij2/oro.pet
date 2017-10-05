@@ -75,7 +75,7 @@ user-specified value.}
 }
 \description{
 The standard uptake value (SUV) is calculated based on an 18F-FDG-PET
-acquistion using ancillary information contained in the DICOM data.
+acquisition using ancillary information contained in the DICOM data.
 }
 \note{
 Note, for GE scanners it is common for the RescaleSlope DICOM field to vary
