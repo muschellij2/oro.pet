@@ -21,7 +21,7 @@ or the two-parameter model (SRTM2), where k2prime is fixed.}
 
 \item{k2prime}{the value of k2prime that has been fixed.}
 
-\item{guess}{values for the inital parameter estimates for R1 and k2.}
+\item{guess}{values for the initial parameter estimates for R1 and k2.}
 
 \item{control}{a list of parameters used by \code{nls.lm.control} that are
 set by default, but may be customized by the user.}
@@ -51,9 +51,6 @@ The convolution is performed after interpolating the time activity curves,
 both for the tissue and the reference region, to one-second resolution then
 downsampling them back to the original sampling rate.
 }
-\author{
-Brandon Whitcher \email{b.whitcher@gmail.com}
-}
 \references{
 Lammertsma, A.A. and Hume, S.P. (1996) Simplified reference
 tissue model for PET receptor studies, \emph{NeuroImage}, \bold{4}, 153-158.
@@ -66,4 +63,6 @@ Blood Flow \& Metabolism}, \bold{22}, 1440-1452.
 \code{\link[msm]{deltamethod}}, \code{\link{expConv}},
 \code{\link[minpack.lm]{nls.lm}}
 }
-
+\author{
+Brandon Whitcher \email{b.whitcher@gmail.com}
+}

@@ -23,7 +23,7 @@ post-treatment binding potentials.}
 approximate standard error of the parameter estimate.}
 }
 \description{
-Receptor occupancy is calculated from posititron emission tomography (PET)
+Receptor occupancy is calculated from positron emission tomography (PET)
 data as the treatment-induced relative change in the concentration of
 available (not occupied) receptors.
 }
@@ -33,13 +33,10 @@ If the standard errors for the two binding potentials are provided, then the
 delta method is used to approximate the standard error for the estimate of
 occupancy.
 }
-\author{
-Brandon Whitcher \email{bwhitcher@gmail.com}
-}
 \references{
 Cunningham VJ, Rabiner EA, Slifstein M, Laruelle M (2010).
 Measuring drug occupancy in the absence of a reference region: the Lassen
-plot re-visited, \emph{Journal of Cerebral Blood Flow & Metababolism},
+plot re-visited, \emph{Journal of Cerebral Blood Flow & Metabolism},
 \bold{30}, 46-50.
 
 Passchier J, Gee A, Willemsen A, Vaalburg W, van Waarde A (2002).  Measuring
@@ -49,4 +46,6 @@ drug-related receptor occupancy with positron emission tomography,
 \seealso{
 \code{\link[msm]{deltamethod}}
 }
-
+\author{
+Brandon Whitcher \email{bwhitcher@gmail.com}
+}

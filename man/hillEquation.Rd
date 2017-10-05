@@ -24,7 +24,7 @@ are set by default, but may be customized by the user.}
 List with the following elements \itemize{
 \item{IC50}{Half maximal inhibitory concentration}
 \item{rmax}{Estimated maximal occupancy} \item{IC50SE}{Approximate standard
-error for IC50} \item{rmaxSE}{Approximate standard erorr for rmax}
+error for IC50} \item{rmaxSE}{Approximate standard error for rmax}
 \item{hessian}{Hessian matrix from the Levenburg-Marquardt procedure}
 \item{info}{Return value from the Levenburg-Marquardt procedure}
 \item{deviance}{Deviance from the Levenburg-Marquardt procedure}
@@ -43,9 +43,6 @@ See reference(s).
 In this version of the function the maximal occupancy (rmax) is estimated
 automatically.  This should be optional.
 }
-\author{
-Brandon Whitcher \email{bwhitcher@gmail.com}
-}
 \references{
 \href{http://en.wikipedia.org/wiki/Hill_equation_(biochemistry)}{Hill
 Equation}
@@ -54,4 +51,6 @@ Equation}
 \seealso{
 \code{\link[minpack.lm]{nls.lm}}
 }
-
+\author{
+Brandon Whitcher \email{bwhitcher@gmail.com}
+}

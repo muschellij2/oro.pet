@@ -55,16 +55,15 @@ binding potentials for a single subject across multiple brain regions.
 \details{
 See the reference below.
 }
-\author{
-Brandon Whitcher \email{bwhitcher@gmail.com}
-}
 \references{
 Cunningham VJ, Rabiner EA, Slifstein M, Laruelle M (2010).
 Measuring drug occupancy in the absence of a reference region: the Lassen
-plot re-visited, \emph{Journal of Cerebral Blood Flow & Metababolism},
+plot re-visited, \emph{Journal of Cerebral Blood Flow & Metabolism},
 \bold{30}, 46-50.
 }
 \seealso{
 \code{\link{par}}, \code{\link{plot}}
 }
-
+\author{
+Brandon Whitcher \email{bwhitcher@gmail.com}
+}

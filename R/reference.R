@@ -60,7 +60,7 @@
 #' @param SRTM2 a logical value that selects the three-parameter model (SRTM)
 #' or the two-parameter model (SRTM2), where k2prime is fixed.
 #' @param k2prime the value of k2prime that has been fixed.
-#' @param guess values for the inital parameter estimates for R1 and k2.
+#' @param guess values for the initial parameter estimates for R1 and k2.
 #' @param control a list of parameters used by \code{nls.lm.control} that are
 #' set by default, but may be customized by the user.
 #' @return \item{BP}{Binding potential} \item{R1}{Ratio of the volumes of

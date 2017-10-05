@@ -2,12 +2,12 @@
 % Please edit documentation in R/qiba.R
 \docType{methods}
 \name{activityConcentration}
-\alias{.activityConcentration}
-\alias{.standardUptakeValue}
 \alias{activityConcentration}
 \alias{activityConcentration,array-method}
+\alias{.activityConcentration}
 \alias{standardUptakeValue}
 \alias{standardUptakeValue,array-method}
+\alias{.standardUptakeValue}
 \title{Calculating SUVs for PET Using QIBA Pseudocode}
 \usage{
 activityConcentration(pixelData, ...)
@@ -86,13 +86,12 @@ If this is not correct it may be necessary to manually re-order the
 RescaleSlope field in the CSV data frame so that the activity concentration
 is calculated correctly.
 }
-\author{
-Brandon Whitcher \email{bwhitcher@gmail.com}
-}
 \references{
 \url{http://qibawiki.rsna.org/index.php?title=Standardized_Uptake_Value_(SUV)}
 }
 \seealso{
 \code{\link[oro.dicom]{dicomTable}}, \code{\link[oro.nifti]{nifti}}
 }
-
+\author{
+Brandon Whitcher \email{bwhitcher@gmail.com}
+}

@@ -58,7 +58,7 @@
 #' @return List with the following elements \itemize{
 #' \item{IC50}{Half maximal inhibitory concentration}
 #' \item{rmax}{Estimated maximal occupancy} \item{IC50SE}{Approximate standard
-#' error for IC50} \item{rmaxSE}{Approximate standard erorr for rmax}
+#' error for IC50} \item{rmaxSE}{Approximate standard error for rmax}
 #' \item{hessian}{Hessian matrix from the Levenburg-Marquardt procedure}
 #' \item{info}{Return value from the Levenburg-Marquardt procedure}
 #' \item{deviance}{Deviance from the Levenburg-Marquardt procedure}

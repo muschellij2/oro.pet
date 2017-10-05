@@ -52,9 +52,6 @@ Given the nonlinear relationship between binding potential and the
 regression parameters, the \code{deltamethod} is used to approximate its
 standard error.
 }
-\author{
-Brandon Whitcher \email{bwhitcher@gmail.com}
-}
 \references{
 Ichise, M., Ballinger, J.R., Golan, H., Vines, D., Luong, A.,
 Tsai, S. and Kung, H.F. (1996) Noninvasive quantification of dopamine D2
@@ -71,4 +68,6 @@ brain, \emph{Journal of Cerebral Blood Flow \& Metabolism}, \bold{23},
 \seealso{
 \code{\link{cumsum}}, \code{\link[msm]{deltamethod}}
 }
-
+\author{
+Brandon Whitcher \email{bwhitcher@gmail.com}
+}

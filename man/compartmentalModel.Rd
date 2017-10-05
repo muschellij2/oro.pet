@@ -24,9 +24,6 @@ reference region time activity curve.
 Parametric models from the PET literature are provided to the user for
 kinetic parameter estimation.
 }
-\author{
-Brandon Whitcher \email{bwhitcher@gmail.com}
-}
 \references{
 Lammertsma, A.A and Hume, S.P. (1996) Simplified reference tissue model for
 PET receptor studies, \emph{NeuroImage}, \bold{4}, 153-158.
@@ -38,5 +35,7 @@ Blood Flow \& Metabolism}, \bold{22}, 1440-1452.
 \seealso{
 \code{\link{simplifiedReferenceTissueModel}}
 }
+\author{
+Brandon Whitcher \email{bwhitcher@gmail.com}
+}
 \keyword{misc}
-
